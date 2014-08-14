@@ -10,13 +10,16 @@ nav{}
 
 /*  contente style  */
 
-div.contente{}
-.cat-que{background-image: url(imag/background.jpg); height: 50vh}
+section.contente{background-image: url(imag/background.jpg); height: 50vh}
+
+.cat-content{margin-top: 3vh; margin-bottom: 3vh; text-align: center}
 
 /*  footer style  */
 
-footer{background: #6E6E70;}
-div.cat-footer{text-align: center; padding: 3% 0 0.5% 0; font-size: 1.2em; float: left}
-
-.cat-nav-bottom{float: right}
-
+footer{background: #6E6E70; font-size: 1.2em; padding-top: 5vh }
+.footer{}
+.footer [class*='col-']{padding: 0;}
+.footer span{line-height: 5vh;}
+.footer ul{margin: 0;}
+.footer ul li img{max-width: 40px}
+.footer ul li img:hover{opacity: 0.5}
