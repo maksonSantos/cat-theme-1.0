@@ -1,0 +1,22 @@
+/*  header style  */
+
+header{}
+header div.cat-header-container{background: #6E6E70; border-bottom: 0.5vh solid #301B0C; }
+header .cat-header{overflow: hidden}
+header img{width: 35%; text-align: left margin: 0 auto; padding: 1vh 0}
+
+nav{}
+.nav.cat-nav-top li > a{color: #301B0C; font-family: segoe print, sans-serif; font-weight:  bold; font-variant:  small-caps; font-size: 1.3em }
+
+/*  contente style  */
+
+div.contente{}
+.cat-que{background-image: url(imag/background.jpg); height: 50vh}
+
+/*  footer style  */
+
+footer{background: #6E6E70;}
+div.cat-footer{text-align: center; padding: 3% 0 0.5% 0; font-size: 1.2em; float: left}
+
+.cat-nav-bottom{float: right}
+
