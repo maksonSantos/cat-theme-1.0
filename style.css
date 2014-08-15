@@ -10,16 +10,17 @@ nav{}
 
 /*  contente style  */
 
-section.contente{background-image: url(imag/background.jpg); height: 50vh}
+section.contente{background-image: url(imag/background.jpg); height: 70vh}
 
-.cat-content{margin-top: 3vh; margin-bottom: 3vh; text-align: center}
+.cat-content{margin-top: 3vh; text-align: center}
 
 /*  footer style  */
 
-footer{background: #6E6E70; font-size: 1.2em; padding-top: 5vh }
-.footer{}
+footer{background: #6E6E70; font-size: 1.2em; position: absolute; width: 100%}
+.footer{margin: 0 auto; padding-top: 3%}
 .footer [class*='col-']{padding: 0;}
-.footer span{line-height: 5vh;}
-.footer ul{margin: 0;}
-.footer ul li img{max-width: 40px}
+.footer div.cat-footer-left{width: 49%; float: left;  margin-top: 1%}
+.footer span.cat-footer-right{line-height: 5vh; width: 49%;}
+.footer ul{margin: 0; width: 40%; float: left; text-indent: 4%}
+.footer ul li img{max-width: 40px;}
 .footer ul li img:hover{opacity: 0.5}
