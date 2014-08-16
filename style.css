@@ -1,22 +1,31 @@
+html, body{font-family: Calibri, Centure Gothic, sans-serif}
+
 /*  header style  */
 
 header{}
-header div.cat-header-container{background: #6E6E70; border-bottom: 0.5vh solid #301B0C; }
+header div.cat-header-container{background: #6E6E70; border-bottom: 1vh solid #301B0C; }
 header .cat-header{overflow: hidden}
 header img{width: 35%; text-align: left margin: 0 auto; padding: 1vh 0}
 
 nav{}
-.nav.cat-nav-top li > a{color: #301B0C; font-family: segoe print, sans-serif; font-weight:  bold; font-variant:  small-caps; font-size: 1.3em }
+.nav.cat-nav-top li > a{color: #301B0C; font-weight:  bold; font-variant:  small-caps; font-size: 1.4em }
 
 /*  contente style  */
 
 section.contente{background-image: url(imag/background.jpg); height: 70vh}
 
-.cat-content{margin-top: 3vh; text-align: center}
+.cat-content{margin-top: 3vh; text-align: center; font-size: 1.2em}
 
+/*  fomulario style  */
+
+div.cat-contact{background-image: url(imag/023025255_prevstill.jpeg); padding: 2%; width: 100%; color: #FFF5DF; font-size: 1.5em}
+.cat-contact-your{}
+.cat-camps{margin-bottom: 5vh; border-radius: 0; overflow: hidden}
+.cat-camps-btn{margin-bottom: 5vh; background: #FFE0A1; color: #301B0C}
+.cat-camps-btn:hover{background: #E1E1E1}
 /*  footer style  */
 
-footer{background: #6E6E70; font-size: 1.2em; position: absolute; width: 100%}
+footer{background: #301B0C; color: #FFAA00; font-size: 1.2em; position: absolute; width: 100%}
 .footer{margin: 0 auto; padding-top: 3%}
 .footer [class*='col-']{padding: 0;}
 .footer div.cat-footer-left{width: 49%; float: left;  margin-top: 1%}
